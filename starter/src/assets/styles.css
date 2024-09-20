@@ -1,0 +1,92 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+}
+.Marketting {
+  color: rgb(158, 10, 163);
+  font-weight: bolder;
+  font-size: 20px;
+  z-index: 30;
+}
+h2,
+h3 {
+  padding: 1em 0 0.5em;
+}
+p {
+  padding-bottom: 1em;
+}
+.products-container {
+  width: 100%;
+  max-width: 55em;
+  padding: 2em;
+}
+.cart-container {
+  display: flex;
+}
+.checkout-container {
+  max-width: 34em;
+  padding: 2em;
+  background: #efefef;
+}
+.products,
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products > div {
+  background: #f5f5f5;
+  margin: 1em;
+  padding: 2em;
+}
+
+.products > div img {
+  max-width: 175px;
+  height: auto;
+}
+
+.products > div h3 {
+  font-weight: 800;
+}
+
+.cart > div {
+  border: 1px solid #ccc;
+  margin: 1em;
+  padding: 2em;
+}
+.checkout-container {
+  max-width: 34em;
+}
+.checkout {
+  margin-bottom: 4em;
+}
+
+button {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 1em;
+  transition: 0.2s ease all;
+  text-transform: uppercase;
+}
+button.pay {
+  background: #f5f5f5;
+  vertical-align: middle;
+}
+button:hover {
+  background: rgb(93, 120, 118);
+  color: #fff;
+  cursor: pointer;
+}
+
+.received {
+  font-size: 1.5em;
+  padding: 0.3em;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
